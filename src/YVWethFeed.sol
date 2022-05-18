@@ -20,7 +20,7 @@ interface IYearnVault {
 }
 
 contract YVWETHFeed is IFeed {
-    IYearnVault public constant vault = IYearnVault(0xa9fE4601811213c340e850ea305481afF02f5b28);
+    IYearnVault public constant vault = IYearnVault(0xa258C4606Ca8206D8aA700cE2143D7db854D168c);
     IAggregator public constant ETH = IAggregator(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
 
     function latestAnswer() public view returns (uint256) {
