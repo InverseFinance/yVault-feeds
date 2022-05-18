@@ -16,7 +16,7 @@ interface IYearnVault {
 }
 
 contract YVUSDCFeed is IFeed {
-    IYearnVault public constant vault = IYearnVault(0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9);
+    IYearnVault public constant vault = IYearnVault(0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE);
     IAggregator constant public USDC = IAggregator(0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6);
 
     function latestAnswer() public view returns (uint256) {

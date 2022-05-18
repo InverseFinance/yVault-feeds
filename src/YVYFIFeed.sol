@@ -20,7 +20,7 @@ interface IYearnVault {
 }
 
 contract YVYFIFeed is IFeed {
-    IYearnVault public constant vault = IYearnVault(0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1);
+    IYearnVault public constant vault = IYearnVault(0xdb25cA703181E7484a155DD612b06f57E12Be5F0);
     IAggregator public constant YFI = IAggregator(0xA027702dbb89fbd58938e4324ac03B58d812b0E1);
 
     function latestAnswer() public view returns (uint256) {
