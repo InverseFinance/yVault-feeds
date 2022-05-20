@@ -33,4 +33,7 @@ interface CToken {
 
     function redeem(uint redeemTokens) external returns (uint);
     function redeemUnderlying(uint redeemAmount) external returns (uint);
+
+    function mint(uint256) external returns (uint256);
+    function underlying() external view returns (address);
 }
